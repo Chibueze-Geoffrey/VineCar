@@ -1,0 +1,169 @@
+2024-01-30 01:30:06.121 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-30 01:30:08.662 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-30 01:30:14.396 +01:00 [DBG] 'DBContext' disposed.
+2024-01-30 01:30:57.267 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-30 01:30:58.056 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-30 01:30:58.108 +01:00 [DBG] Creating DbConnection.
+2024-01-30 01:30:58.256 +01:00 [DBG] Created DbConnection. (116ms).
+2024-01-30 01:30:58.260 +01:00 [DBG] Migrating using database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.300 +01:00 [DBG] Creating DbConnection.
+2024-01-30 01:30:58.324 +01:00 [DBG] Created DbConnection. (24ms).
+2024-01-30 01:30:58.326 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.447 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.495 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.501 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (1ms).
+2024-01-30 01:30:58.508 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-01-30 01:30:58.525 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (15ms).
+2024-01-30 01:30:58.526 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (20ms).
+2024-01-30 01:30:58.526 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.609 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.636 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-01-30 01:30:58.725 +01:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-01-30 01:30:58.728 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.732 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (4ms).
+2024-01-30 01:30:58.734 +01:00 [DBG] Creating DbConnection.
+2024-01-30 01:30:58.734 +01:00 [DBG] Created DbConnection. (0ms).
+2024-01-30 01:30:58.734 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.735 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.735 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.735 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-30 01:30:58.736 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-01-30 01:30:58.736 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-01-30 01:30:58.736 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-01-30 01:30:58.736 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.736 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.736 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-01-30 01:30:58.737 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-01-30 01:30:58.737 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.737 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-30 01:30:58.826 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:58.826 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.826 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-30 01:30:58.826 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-30 01:30:58.826 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-30 01:30:58.827 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-01-30 01:30:58.828 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-01-30 01:30:58.833 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.835 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 4ms reading results.
+2024-01-30 01:30:58.835 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:58.835 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-30 01:30:58.858 +01:00 [INF] Applying migration '20240130003013_new'.
+2024-01-30 01:30:59.025 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:59.026 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:59.057 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-01-30 01:30:59.061 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-01-30 01:30:59.062 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.062 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.062 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.063 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE "brands" SET "Name" = 'MERCEDES'
+WHERE "Id" = 1;
+SELECT changes();
+2024-01-30 01:30:59.063 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+UPDATE "brands" SET "Name" = 'MERCEDES'
+WHERE "Id" = 1;
+SELECT changes();
+2024-01-30 01:30:59.063 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.064 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.064 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.064 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_cars" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_cars" PRIMARY KEY AUTOINCREMENT,
+    "BrandId" INTEGER NOT NULL,
+    "Description" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Price" TEXT NOT NULL,
+    CONSTRAINT "FK_cars_brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "brands" ("Id") ON DELETE CASCADE
+);
+2024-01-30 01:30:59.064 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "ef_temp_cars" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_cars" PRIMARY KEY AUTOINCREMENT,
+    "BrandId" INTEGER NOT NULL,
+    "Description" TEXT NOT NULL,
+    "Name" TEXT NOT NULL,
+    "Price" TEXT NOT NULL,
+    CONSTRAINT "FK_cars_brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "brands" ("Id") ON DELETE CASCADE
+);
+2024-01-30 01:30:59.064 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.064 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.064 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.064 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_cars" ("Id", "BrandId", "Description", "Name", "Price")
+SELECT "Id", "BrandId", IFNULL("Description", ''), "Name", "Price"
+FROM "cars";
+2024-01-30 01:30:59.064 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ef_temp_cars" ("Id", "BrandId", "Description", "Name", "Price")
+SELECT "Id", "BrandId", IFNULL("Description", ''), "Name", "Price"
+FROM "cars";
+2024-01-30 01:30:59.066 +01:00 [DBG] Committing transaction.
+2024-01-30 01:30:59.186 +01:00 [DBG] Committed transaction.
+2024-01-30 01:30:59.188 +01:00 [DBG] Disposing transaction.
+2024-01-30 01:30:59.188 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.188 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.435 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (246ms).
+2024-01-30 01:30:59.435 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2024-01-30 01:30:59.435 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 0;
+2024-01-30 01:30:59.435 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-01-30 01:30:59.436 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-01-30 01:30:59.436 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.436 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.436 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.436 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "cars";
+2024-01-30 01:30:59.437 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+DROP TABLE "cars";
+2024-01-30 01:30:59.437 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.437 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.437 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.437 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_cars" RENAME TO "cars";
+2024-01-30 01:30:59.438 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "ef_temp_cars" RENAME TO "cars";
+2024-01-30 01:30:59.438 +01:00 [DBG] Committing transaction.
+2024-01-30 01:30:59.519 +01:00 [DBG] Committed transaction.
+2024-01-30 01:30:59.521 +01:00 [DBG] Disposing transaction.
+2024-01-30 01:30:59.521 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.521 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.521 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.521 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2024-01-30 01:30:59.522 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA foreign_keys = 1;
+2024-01-30 01:30:59.522 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-01-30 01:30:59.522 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-01-30 01:30:59.522 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.522 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.522 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.522 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_cars_BrandId" ON "cars" ("BrandId");
+2024-01-30 01:30:59.654 +01:00 [INF] Executed DbCommand (132ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_cars_BrandId" ON "cars" ("BrandId");
+2024-01-30 01:30:59.654 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-30 01:30:59.654 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.655 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-30 01:30:59.655 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240130003013_new', '8.0.1');
+2024-01-30 01:30:59.655 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240130003013_new', '8.0.1');
+2024-01-30 01:30:59.655 +01:00 [DBG] Committing transaction.
+2024-01-30 01:30:59.707 +01:00 [DBG] Committed transaction.
+2024-01-30 01:30:59.708 +01:00 [DBG] Disposing transaction.
+2024-01-30 01:30:59.708 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-30 01:30:59.708 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-30 01:30:59.712 +01:00 [DBG] 'DBContext' disposed.
+2024-01-30 01:30:59.713 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-30 01:30:59.713 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (0ms).

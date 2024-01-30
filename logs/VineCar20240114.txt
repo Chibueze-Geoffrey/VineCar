@@ -1,0 +1,729 @@
+2024-01-14 23:52:36.624 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-14 23:52:39.019 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-14 23:52:41.638 +01:00 [DBG] 'DBContext' disposed.
+2024-01-14 23:53:01.052 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-14 23:53:01.815 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-14 23:53:02.144 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:53:02.384 +01:00 [DBG] Created DbConnection. (229ms).
+2024-01-14 23:53:02.405 +01:00 [DBG] Migrating using database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.446 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:53:02.454 +01:00 [DBG] Created DbConnection. (7ms).
+2024-01-14 23:53:02.460 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.568 +01:00 [DBG] An error occurred using the connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.583 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.591 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (1ms).
+2024-01-14 23:53:02.592 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:53:02.592 +01:00 [DBG] Created DbConnection. (0ms).
+2024-01-14 23:53:02.592 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.593 +01:00 [DBG] An error occurred using the connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.593 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.593 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:53:02.594 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:02.632 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:02.667 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:02.699 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (28ms).
+2024-01-14 23:53:02.700 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (37ms).
+2024-01-14 23:53:02.712 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-01-14 23:53:03.318 +01:00 [INF] Executed DbCommand (567ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-01-14 23:53:03.321 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.341 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (20ms).
+2024-01-14 23:53:03.509 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:03.509 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:03.509 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:03.509 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:03.509 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.510 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-01-14 23:53:03.613 +01:00 [INF] Executed DbCommand (103ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-01-14 23:53:03.613 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.613 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:53:03.616 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:53:03.616 +01:00 [DBG] Created DbConnection. (0ms).
+2024-01-14 23:53:03.616 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:03.617 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.620 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:03.621 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:53:03.627 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-01-14 23:53:03.627 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-01-14 23:53:03.627 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-01-14 23:53:03.628 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:03.628 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.629 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-01-14 23:53:03.632 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-01-14 23:53:03.632 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.632 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:53:03.634 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:03.634 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.634 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:53:03.635 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-01-14 23:53:03.635 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-01-14 23:53:03.635 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-01-14 23:53:03.636 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-01-14 23:53:03.642 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.644 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 5ms reading results.
+2024-01-14 23:53:03.644 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.644 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:53:03.676 +01:00 [INF] Applying migration '20240114225241_seeded'.
+2024-01-14 23:53:03.808 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:03.808 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:03.824 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-01-14 23:53:03.846 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-01-14 23:53:03.854 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:03.855 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:03.856 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2024-01-14 23:53:03.859 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "brands" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_brands" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-01-14 23:53:03.860 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "brands" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_brands" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-01-14 23:53:03.861 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:03.861 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:03.861 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:03.862 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "cars" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_cars" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL,
+    "Price" TEXT NOT NULL,
+    "BrandId" INTEGER NOT NULL,
+    CONSTRAINT "FK_cars_brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "brands" ("Id") ON DELETE CASCADE
+);
+2024-01-14 23:53:04.493 +01:00 [INF] Executed DbCommand (631ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "cars" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_cars" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL,
+    "Price" TEXT NOT NULL,
+    "BrandId" INTEGER NOT NULL,
+    CONSTRAINT "FK_cars_brands_BrandId" FOREIGN KEY ("BrandId") REFERENCES "brands" ("Id") ON DELETE CASCADE
+);
+2024-01-14 23:53:04.493 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:04.493 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:04.493 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:04.494 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (1, 'A BRAND THAT DOES IT ALL', 'Mercedes');
+SELECT changes();
+
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (2, 'A BRAND THAT HAS ALL THE REQUIREMENTS', 'BMW');
+SELECT changes();
+
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (3, 'A BRAND JUST FOR YOU', 'HONDA');
+SELECT changes();
+
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (4, 'A BRAND THAT REPRESENTS', 'TOYOTA');
+SELECT changes();
+2024-01-14 23:53:04.494 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (1, 'A BRAND THAT DOES IT ALL', 'Mercedes');
+SELECT changes();
+
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (2, 'A BRAND THAT HAS ALL THE REQUIREMENTS', 'BMW');
+SELECT changes();
+
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (3, 'A BRAND JUST FOR YOU', 'HONDA');
+SELECT changes();
+
+INSERT INTO "brands" ("Id", "Description", "Name")
+VALUES (4, 'A BRAND THAT REPRESENTS', 'TOYOTA');
+SELECT changes();
+2024-01-14 23:53:04.494 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:04.494 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:04.494 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:04.494 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (100, 1, 'A Car with essential requirements', 'GLK350', '20000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (101, 1, 'Durable and efficient', 'Mercedes100', '1500000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (102, 2, 'A Car Known for its uniqueness', 'X6', '19000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (103, 2, 'Exotic with distinct properties', 'X7', '23000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (104, 3, 'A Car with essentials', 'Honda200', '1000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (105, 3, 'A Car That is efficient and worthy', 'Honda-Civic', '1500000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (106, 4, 'A Car with Robust features', 'Camry200', '0.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (107, 4, 'A Car with a pocket friendly price', 'Corolla112', '900000.0');
+SELECT changes();
+2024-01-14 23:53:04.495 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (100, 1, 'A Car with essential requirements', 'GLK350', '20000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (101, 1, 'Durable and efficient', 'Mercedes100', '1500000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (102, 2, 'A Car Known for its uniqueness', 'X6', '19000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (103, 2, 'Exotic with distinct properties', 'X7', '23000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (104, 3, 'A Car with essentials', 'Honda200', '1000000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (105, 3, 'A Car That is efficient and worthy', 'Honda-Civic', '1500000.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (106, 4, 'A Car with Robust features', 'Camry200', '0.0');
+SELECT changes();
+
+INSERT INTO "cars" ("Id", "BrandId", "Description", "Name", "Price")
+VALUES (107, 4, 'A Car with a pocket friendly price', 'Corolla112', '900000.0');
+SELECT changes();
+2024-01-14 23:53:06.337 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:06.338 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:06.338 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:06.338 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_cars_BrandId" ON "cars" ("BrandId");
+2024-01-14 23:53:06.390 +01:00 [INF] Executed DbCommand (52ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_cars_BrandId" ON "cars" ("BrandId");
+2024-01-14 23:53:06.391 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-01-14 23:53:06.391 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:06.391 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-01-14 23:53:06.391 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240114225241_seeded', '8.0.1');
+2024-01-14 23:53:06.391 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240114225241_seeded', '8.0.1');
+2024-01-14 23:53:06.393 +01:00 [DBG] Committing transaction.
+2024-01-14 23:53:06.439 +01:00 [DBG] Committed transaction.
+2024-01-14 23:53:06.442 +01:00 [DBG] Disposing transaction.
+2024-01-14 23:53:06.442 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:53:06.443 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:53:06.445 +01:00 [DBG] 'DBContext' disposed.
+2024-01-14 23:53:06.446 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:53:06.446 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (0ms).
+2024-01-14 23:54:27.325 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-01-14 23:54:27.581 +01:00 [DBG] Hosting starting
+2024-01-14 23:54:29.073 +01:00 [DBG] Connection id "0HN0LAF1SAGK5" received FIN.
+2024-01-14 23:54:29.080 +01:00 [DBG] Connection id "0HN0LAF1SAGK5" accepted.
+2024-01-14 23:54:29.084 +01:00 [DBG] Connection id "0HN0LAF1SAGK5" started.
+2024-01-14 23:54:29.171 +01:00 [INF] Now listening on: https://localhost:7172
+2024-01-14 23:54:29.173 +01:00 [INF] Now listening on: http://localhost:5104
+2024-01-14 23:54:29.174 +01:00 [DBG] Loaded hosting startup assembly VineCar
+2024-01-14 23:54:29.176 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-01-14 23:54:29.177 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-01-14 23:54:29.179 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-14 23:54:29.180 +01:00 [INF] Hosting environment: Development
+2024-01-14 23:54:29.182 +01:00 [INF] Content root path: C:\Users\HP\Desktop\VineCar
+2024-01-14 23:54:29.183 +01:00 [DBG] Hosting started
+2024-01-14 23:54:29.360 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-01-14 23:54:29.714 +01:00 [DBG] Connection id "0HN0LAF1SAGK5" stopped.
+2024-01-14 23:54:29.733 +01:00 [DBG] Connection id "0HN0LAF1SAGK5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:54:36.110 +01:00 [DBG] Connection id "0HN0LAF1SAGK6" accepted.
+2024-01-14 23:54:36.113 +01:00 [DBG] Connection id "0HN0LAF1SAGK6" started.
+2024-01-14 23:54:37.324 +01:00 [DBG] Connection id "0HN0LAF1SAGK7" accepted.
+2024-01-14 23:54:37.326 +01:00 [DBG] Connection id "0HN0LAF1SAGK7" started.
+2024-01-14 23:54:37.492 +01:00 [DBG] Connection id "0HN0LAF1SAGK7" received FIN.
+2024-01-14 23:54:37.578 +01:00 [DBG] Connection 0HN0LAF1SAGK6 established using the following protocol: "Tls12"
+2024-01-14 23:54:37.578 +01:00 [DBG] Connection 0HN0LAF1SAGK7 established using the following protocol: "Tls12"
+2024-01-14 23:54:38.280 +01:00 [DBG] Connection id "0HN0LAF1SAGK7" is closed. The last processed stream ID was 0.
+2024-01-14 23:54:38.283 +01:00 [DBG] Connection id "0HN0LAF1SAGK7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:54:38.288 +01:00 [DBG] The connection queue processing loop for 0HN0LAF1SAGK7 completed.
+2024-01-14 23:54:38.293 +01:00 [DBG] Connection id "0HN0LAF1SAGK7" stopped.
+2024-01-14 23:54:39.035 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger - null null
+2024-01-14 23:54:40.870 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-01-14 23:54:41.125 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger - 301 0 null 2480.6106ms
+2024-01-14 23:54:41.190 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger/index.html - null null
+2024-01-14 23:54:41.639 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-01-14 23:54:41.673 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-01-14 23:54:41.675 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger/index.html - 200 null text/html;charset=utf-8 484.5851ms
+2024-01-14 23:54:42.008 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger/swagger-ui.css - null null
+2024-01-14 23:54:42.009 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger/swagger-ui-standalone-preset.js - null null
+2024-01-14 23:54:42.009 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger/swagger-ui-bundle.js - null null
+2024-01-14 23:54:42.011 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/_framework/aspnetcore-browser-refresh.js - null null
+2024-01-14 23:54:42.145 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/_vs/browserLink - null null
+2024-01-14 23:54:42.185 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 174.951ms
+2024-01-14 23:54:42.202 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-01-14 23:54:42.210 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger/swagger-ui.css - 200 143943 text/css 201.6822ms
+2024-01-14 23:54:42.265 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-01-14 23:54:42.267 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 258.2775ms
+2024-01-14 23:54:42.463 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-01-14 23:54:42.465 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 456.3794ms
+2024-01-14 23:54:42.657 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/_vs/browserLink - 200 null text/javascript; charset=UTF-8 511.9374ms
+2024-01-14 23:54:42.996 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger/v1/swagger.json - null null
+2024-01-14 23:54:43.139 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/swagger/favicon-32x32.png - null null
+2024-01-14 23:54:43.143 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-01-14 23:54:43.146 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger/favicon-32x32.png - 200 628 image/png 7.4115ms
+2024-01-14 23:54:44.572 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1576.0621ms
+2024-01-14 23:54:52.558 +01:00 [DBG] Connection id "0HN0LAF1SAGK6" received FIN.
+2024-01-14 23:54:52.563 +01:00 [DBG] Connection id "0HN0LAF1SAGK6" is closed. The last processed stream ID was 17.
+2024-01-14 23:54:52.563 +01:00 [DBG] The connection queue processing loop for 0HN0LAF1SAGK6 completed.
+2024-01-14 23:54:52.565 +01:00 [DBG] Connection id "0HN0LAF1SAGK6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:54:52.577 +01:00 [DBG] Connection id "0HN0LAF1SAGK6" stopped.
+2024-01-14 23:54:58.113 +01:00 [DBG] Connection id "0HN0LAF1SAGK8" accepted.
+2024-01-14 23:54:58.115 +01:00 [DBG] Connection id "0HN0LAF1SAGK8" started.
+2024-01-14 23:54:58.119 +01:00 [DBG] Connection 0HN0LAF1SAGK8 established using the following protocol: "Tls12"
+2024-01-14 23:54:58.159 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/api/brands - null null
+2024-01-14 23:54:58.165 +01:00 [DBG] The request path  does not match the path filter
+2024-01-14 23:54:58.350 +01:00 [DBG] 1 candidate(s) found for the request path '/api/brands'
+2024-01-14 23:54:58.357 +01:00 [DBG] Endpoint 'VineCar.Controllers.BrandController.GetCities (VineCar)' with route pattern 'api/brands' is valid for the request path '/api/brands'
+2024-01-14 23:54:58.361 +01:00 [DBG] Request matched endpoint 'VineCar.Controllers.BrandController.GetCities (VineCar)'
+2024-01-14 23:54:58.410 +01:00 [INF] Executing endpoint 'VineCar.Controllers.BrandController.GetCities (VineCar)'
+2024-01-14 23:54:59.115 +01:00 [INF] Route matched with {action = "GetCities", controller = "Brand"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[VineCar.VineCarDtos.BrandWithoutCarsDto]]] GetCities() on controller VineCar.Controllers.BrandController (VineCar).
+2024-01-14 23:54:59.120 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-14 23:54:59.122 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-14 23:54:59.126 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-14 23:54:59.130 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-14 23:54:59.132 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-14 23:54:59.137 +01:00 [DBG] Executing controller factory for controller VineCar.Controllers.BrandController (VineCar)
+2024-01-14 23:55:01.944 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-01-14 23:55:02.327 +01:00 [DBG] Executed controller factory for controller VineCar.Controllers.BrandController (VineCar)
+2024-01-14 23:55:04.909 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-14 23:55:05.043 +01:00 [DBG] Compiling query expression: 
+'DbSet<Brand>()
+    .OrderBy(c => c.Id)'
+2024-01-14 23:55:05.453 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Brand>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Brand.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Brand.Description (string) MaxLength(150), 1], [Property: Brand.Name (string) Required MaxLength(50), 2] }
+        SELECT b.Id, b.Description, b.Name
+        FROM brands AS b
+        ORDER BY b.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Brand>, 
+    VineCar.AppDbContext.DBContext, 
+    False, 
+    False, 
+    True
+)'
+2024-01-14 23:55:05.494 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:55:05.510 +01:00 [DBG] Created DbConnection. (13ms).
+2024-01-14 23:55:05.516 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:55:05.537 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:55:05.546 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:55:05.570 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (23ms).
+2024-01-14 23:55:05.576 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (29ms).
+2024-01-14 23:55:05.587 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."Description", "b"."Name"
+FROM "brands" AS "b"
+ORDER BY "b"."Id"
+2024-01-14 23:55:05.621 +01:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "b"."Id", "b"."Description", "b"."Name"
+FROM "brands" AS "b"
+ORDER BY "b"."Id"
+2024-01-14 23:55:05.727 +01:00 [DBG] Context 'DBContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:05.755 +01:00 [DBG] Context 'DBContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:05.760 +01:00 [DBG] Context 'DBContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:05.763 +01:00 [DBG] Context 'DBContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:05.773 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:55:05.785 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 117ms reading results.
+2024-01-14 23:55:05.794 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:55:05.801 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (6ms).
+2024-01-14 23:55:05.848 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-01-14 23:55:05.874 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-01-14 23:55:06.001 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-01-14 23:55:06.006 +01:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2024-01-14 23:55:06.013 +01:00 [INF] Executed action VineCar.Controllers.BrandController.GetCities (VineCar) in 6874.1761ms
+2024-01-14 23:55:06.015 +01:00 [INF] Executed endpoint 'VineCar.Controllers.BrandController.GetCities (VineCar)'
+2024-01-14 23:55:06.020 +01:00 [DBG] 'DBContext' disposed.
+2024-01-14 23:55:06.030 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:55:06.034 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (3ms).
+2024-01-14 23:55:06.037 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/api/brands - 406 0 null 7878.1577ms
+2024-01-14 23:55:12.595 +01:00 [DBG] Connection id "0HN0LAF1SAGK8" received FIN.
+2024-01-14 23:55:12.601 +01:00 [DBG] Connection id "0HN0LAF1SAGK8" is closed. The last processed stream ID was 1.
+2024-01-14 23:55:12.602 +01:00 [DBG] The connection queue processing loop for 0HN0LAF1SAGK8 completed.
+2024-01-14 23:55:12.626 +01:00 [DBG] Connection id "0HN0LAF1SAGK8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:55:12.639 +01:00 [DBG] Connection id "0HN0LAF1SAGK8" stopped.
+2024-01-14 23:55:49.645 +01:00 [DBG] Connection id "0HN0LAF1SAGK9" accepted.
+2024-01-14 23:55:49.656 +01:00 [DBG] Connection id "0HN0LAF1SAGK9" started.
+2024-01-14 23:55:49.660 +01:00 [DBG] Connection 0HN0LAF1SAGK9 established using the following protocol: "Tls12"
+2024-01-14 23:55:49.669 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/api/brands/1?includeNumberOfCars=true - null null
+2024-01-14 23:55:49.675 +01:00 [DBG] The request path  does not match the path filter
+2024-01-14 23:55:49.677 +01:00 [DBG] 1 candidate(s) found for the request path '/api/brands/1'
+2024-01-14 23:55:49.679 +01:00 [DBG] Endpoint 'VineCar.Controllers.BrandController.GetCity (VineCar)' with route pattern 'api/brands/{id}' is valid for the request path '/api/brands/1'
+2024-01-14 23:55:49.682 +01:00 [DBG] Request matched endpoint 'VineCar.Controllers.BrandController.GetCity (VineCar)'
+2024-01-14 23:55:49.684 +01:00 [INF] Executing endpoint 'VineCar.Controllers.BrandController.GetCity (VineCar)'
+2024-01-14 23:55:49.720 +01:00 [INF] Route matched with {action = "GetCity", controller = "Brand"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCity(Int32, Boolean) on controller VineCar.Controllers.BrandController (VineCar).
+2024-01-14 23:55:49.723 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-14 23:55:49.725 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-14 23:55:49.727 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-14 23:55:49.730 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-14 23:55:49.733 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-14 23:55:49.736 +01:00 [DBG] Executing controller factory for controller VineCar.Controllers.BrandController (VineCar)
+2024-01-14 23:55:49.739 +01:00 [DBG] Executed controller factory for controller VineCar.Controllers.BrandController (VineCar)
+2024-01-14 23:55:49.805 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-01-14 23:55:49.812 +01:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-01-14 23:55:49.824 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-01-14 23:55:49.826 +01:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-01-14 23:55:49.828 +01:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-01-14 23:55:49.838 +01:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-01-14 23:55:49.843 +01:00 [DBG] Attempting to bind parameter 'includeNumberOfCars' of type 'System.Boolean' ...
+2024-01-14 23:55:49.846 +01:00 [DBG] Attempting to bind parameter 'includeNumberOfCars' of type 'System.Boolean' using the name 'includeNumberOfCars' in request data ...
+2024-01-14 23:55:49.849 +01:00 [DBG] Done attempting to bind parameter 'includeNumberOfCars' of type 'System.Boolean'.
+2024-01-14 23:55:49.851 +01:00 [DBG] Done attempting to bind parameter 'includeNumberOfCars' of type 'System.Boolean'.
+2024-01-14 23:55:49.853 +01:00 [DBG] Attempting to validate the bound parameter 'includeNumberOfCars' of type 'System.Boolean' ...
+2024-01-14 23:55:49.855 +01:00 [DBG] Done attempting to validate the bound parameter 'includeNumberOfCars' of type 'System.Boolean'.
+2024-01-14 23:55:49.889 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-14 23:55:49.950 +01:00 [DBG] Compiling query expression: 
+'DbSet<Brand>()
+    .Include(c => c.Cars)
+    .Where(c => c.Id == __brandId_0)
+    .FirstOrDefault()'
+2024-01-14 23:55:49.995 +01:00 [DBG] Including navigation: 'Brand.Cars'.
+2024-01-14 23:55:50.198 +01:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Brand>(
+    asyncEnumerable: new SingleQueryingEnumerable<Brand>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Client Projections:
+                0 -> Dictionary<IProperty, int> { [Property: Brand.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Brand.Description (string) MaxLength(150), 1], [Property: Brand.Name (string) Required MaxLength(50), 2] }
+                1 -> 0
+                2 -> Dictionary<IProperty, int> { [Property: Car.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 3], [Property: Car.BrandId (int) Required FK Index, 4], [Property: Car.Description (string), 5], [Property: Car.Name (string) Required, 6], [Property: Car.Price (decimal) Required, 7] }
+                3 -> 3
+            SELECT t.Id, t.Description, t.Name, c.Id, c.BrandId, c.Description, c.Name, c.Price
+            FROM 
+            (
+                SELECT TOP(1) b.Id, b.Description, b.Name
+                FROM brands AS b
+                WHERE b.Id == @__brandId_0
+            ) AS t
+            LEFT JOIN cars AS c ON t.Id == c.BrandId
+            ORDER BY t.Id ASC), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Brand>, 
+        VineCar.AppDbContext.DBContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-01-14 23:55:50.228 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:55:50.229 +01:00 [DBG] Created DbConnection. (1ms).
+2024-01-14 23:55:50.231 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:55:50.234 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:55:50.237 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:55:50.238 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-01-14 23:55:50.244 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-01-14 23:55:50.260 +01:00 [DBG] Executing DbCommand [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Description", "t"."Name", "c"."Id", "c"."BrandId", "c"."Description", "c"."Name", "c"."Price"
+FROM (
+    SELECT "b"."Id", "b"."Description", "b"."Name"
+    FROM "brands" AS "b"
+    WHERE "b"."Id" = @__brandId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "cars" AS "c" ON "t"."Id" = "c"."BrandId"
+ORDER BY "t"."Id"
+2024-01-14 23:55:50.291 +01:00 [INF] Executed DbCommand (44ms) [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "t"."Id", "t"."Description", "t"."Name", "c"."Id", "c"."BrandId", "c"."Description", "c"."Name", "c"."Price"
+FROM (
+    SELECT "b"."Id", "b"."Description", "b"."Name"
+    FROM "brands" AS "b"
+    WHERE "b"."Id" = @__brandId_0
+    LIMIT 1
+) AS "t"
+LEFT JOIN "cars" AS "c" ON "t"."Id" = "c"."BrandId"
+ORDER BY "t"."Id"
+2024-01-14 23:55:50.296 +01:00 [DBG] Context 'DBContext' started tracking 'Brand' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:50.331 +01:00 [DBG] Context 'DBContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:50.352 +01:00 [DBG] Context 'DBContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:55:50.354 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:55:50.356 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 60ms reading results.
+2024-01-14 23:55:50.360 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:55:50.362 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (2ms).
+2024-01-14 23:55:50.371 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-01-14 23:55:50.378 +01:00 [DBG] No information found on request to perform content negotiation.
+2024-01-14 23:55:50.379 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-01-14 23:55:50.381 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-01-14 23:55:50.383 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-01-14 23:55:50.386 +01:00 [INF] Executing OkObjectResult, writing value of type 'VineCar.VineCarDtos.BrandDto'.
+2024-01-14 23:55:50.738 +01:00 [INF] Executed action VineCar.Controllers.BrandController.GetCity (VineCar) in 1001.8104ms
+2024-01-14 23:55:50.743 +01:00 [INF] Executed endpoint 'VineCar.Controllers.BrandController.GetCity (VineCar)'
+2024-01-14 23:55:50.745 +01:00 [DBG] 'DBContext' disposed.
+2024-01-14 23:55:50.752 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:55:50.756 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (4ms).
+2024-01-14 23:55:50.767 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/api/brands/1?includeNumberOfCars=true - 200 277 application/json; charset=utf-8 1101.848ms
+2024-01-14 23:55:52.646 +01:00 [DBG] Connection id "0HN0LAF1SAGK9" received FIN.
+2024-01-14 23:55:52.650 +01:00 [DBG] Connection id "0HN0LAF1SAGK9" is closed. The last processed stream ID was 1.
+2024-01-14 23:55:52.650 +01:00 [DBG] The connection queue processing loop for 0HN0LAF1SAGK9 completed.
+2024-01-14 23:55:52.655 +01:00 [DBG] Connection id "0HN0LAF1SAGK9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:55:52.677 +01:00 [DBG] Connection id "0HN0LAF1SAGK9" stopped.
+2024-01-14 23:56:20.449 +01:00 [DBG] Connection id "0HN0LAF1SAGKA" accepted.
+2024-01-14 23:56:20.463 +01:00 [DBG] Connection id "0HN0LAF1SAGKA" started.
+2024-01-14 23:56:20.467 +01:00 [DBG] Connection 0HN0LAF1SAGKA established using the following protocol: "Tls12"
+2024-01-14 23:56:20.470 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/api/brands/1/cars - null null
+2024-01-14 23:56:20.490 +01:00 [DBG] The request path  does not match the path filter
+2024-01-14 23:56:20.491 +01:00 [DBG] 1 candidate(s) found for the request path '/api/brands/1/cars'
+2024-01-14 23:56:20.494 +01:00 [DBG] Endpoint 'VineCar.Controllers.CarController.GetPointsOfInterest (VineCar)' with route pattern 'api/brands/{brandId}/cars' is valid for the request path '/api/brands/1/cars'
+2024-01-14 23:56:20.497 +01:00 [DBG] Request matched endpoint 'VineCar.Controllers.CarController.GetPointsOfInterest (VineCar)'
+2024-01-14 23:56:20.499 +01:00 [INF] Executing endpoint 'VineCar.Controllers.CarController.GetPointsOfInterest (VineCar)'
+2024-01-14 23:56:20.507 +01:00 [INF] Route matched with {action = "GetPointsOfInterest", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[VineCar.VineCarDtos.CarDto]]] GetPointsOfInterest(Int32) on controller VineCar.Controllers.CarController (VineCar).
+2024-01-14 23:56:20.511 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-14 23:56:20.514 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-14 23:56:20.516 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-14 23:56:20.519 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-14 23:56:20.520 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-14 23:56:20.523 +01:00 [DBG] Executing controller factory for controller VineCar.Controllers.CarController (VineCar)
+2024-01-14 23:56:20.531 +01:00 [DBG] Executed controller factory for controller VineCar.Controllers.CarController (VineCar)
+2024-01-14 23:56:20.533 +01:00 [DBG] Attempting to bind parameter 'brandId' of type 'System.Int32' ...
+2024-01-14 23:56:20.535 +01:00 [DBG] Attempting to bind parameter 'brandId' of type 'System.Int32' using the name 'brandId' in request data ...
+2024-01-14 23:56:20.537 +01:00 [DBG] Done attempting to bind parameter 'brandId' of type 'System.Int32'.
+2024-01-14 23:56:20.539 +01:00 [DBG] Done attempting to bind parameter 'brandId' of type 'System.Int32'.
+2024-01-14 23:56:20.541 +01:00 [DBG] Attempting to validate the bound parameter 'brandId' of type 'System.Int32' ...
+2024-01-14 23:56:20.544 +01:00 [DBG] Done attempting to validate the bound parameter 'brandId' of type 'System.Int32'.
+2024-01-14 23:56:20.684 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-14 23:56:20.690 +01:00 [DBG] Compiling query expression: 
+'DbSet<Brand>()
+    .Any(c => c.Id == __brandId_0)'
+2024-01-14 23:56:20.707 +01:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<bool>(
+    asyncEnumerable: new SingleQueryingEnumerable<bool>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT EXISTS (
+                SELECT 1
+                FROM brands AS b
+                WHERE b.Id == @__brandId_0)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, bool>, 
+        VineCar.AppDbContext.DBContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-01-14 23:56:20.720 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:56:20.721 +01:00 [DBG] Created DbConnection. (1ms).
+2024-01-14 23:56:20.722 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:56:20.724 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:20.727 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:56:20.729 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-01-14 23:56:20.731 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-01-14 23:56:20.733 +01:00 [DBG] Executing DbCommand [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "brands" AS "b"
+    WHERE "b"."Id" = @__brandId_0)
+2024-01-14 23:56:20.737 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "brands" AS "b"
+    WHERE "b"."Id" = @__brandId_0)
+2024-01-14 23:56:20.741 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:20.743 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 3ms reading results.
+2024-01-14 23:56:20.747 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:20.749 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (2ms).
+2024-01-14 23:56:20.755 +01:00 [DBG] Compiling query expression: 
+'DbSet<Car>()
+    .Where(p => p.BrandId == __brandId_0)'
+2024-01-14 23:56:20.765 +01:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Car>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Car.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Car.BrandId (int) Required FK Index, 1], [Property: Car.Description (string), 2], [Property: Car.Name (string) Required, 3], [Property: Car.Price (decimal) Required, 4] }
+        SELECT c.Id, c.BrandId, c.Description, c.Name, c.Price
+        FROM cars AS c
+        WHERE c.BrandId == @__brandId_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Car>, 
+    VineCar.AppDbContext.DBContext, 
+    False, 
+    False, 
+    True
+)'
+2024-01-14 23:56:20.770 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:56:20.772 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:20.774 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:56:20.777 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-01-14 23:56:20.780 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2024-01-14 23:56:20.781 +01:00 [DBG] Executing DbCommand [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."BrandId", "c"."Description", "c"."Name", "c"."Price"
+FROM "cars" AS "c"
+WHERE "c"."BrandId" = @__brandId_0
+2024-01-14 23:56:20.785 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."BrandId", "c"."Description", "c"."Name", "c"."Price"
+FROM "cars" AS "c"
+WHERE "c"."BrandId" = @__brandId_0
+2024-01-14 23:56:20.789 +01:00 [DBG] Context 'DBContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:56:20.791 +01:00 [DBG] Context 'DBContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-01-14 23:56:20.795 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:20.797 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 8ms reading results.
+2024-01-14 23:56:20.799 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:20.801 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (1ms).
+2024-01-14 23:56:20.813 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-01-14 23:56:20.817 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-01-14 23:56:20.820 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-01-14 23:56:20.822 +01:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2024-01-14 23:56:20.825 +01:00 [INF] Executed action VineCar.Controllers.CarController.GetPointsOfInterest (VineCar) in 301.8536ms
+2024-01-14 23:56:20.828 +01:00 [INF] Executed endpoint 'VineCar.Controllers.CarController.GetPointsOfInterest (VineCar)'
+2024-01-14 23:56:20.830 +01:00 [DBG] 'DBContext' disposed.
+2024-01-14 23:56:20.832 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:56:20.834 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (2ms).
+2024-01-14 23:56:20.836 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/api/brands/1/cars - 406 0 null 366.274ms
+2024-01-14 23:56:22.683 +01:00 [DBG] Connection id "0HN0LAF1SAGKA" received FIN.
+2024-01-14 23:56:22.685 +01:00 [DBG] Connection id "0HN0LAF1SAGKA" is closed. The last processed stream ID was 1.
+2024-01-14 23:56:22.685 +01:00 [DBG] The connection queue processing loop for 0HN0LAF1SAGKA completed.
+2024-01-14 23:56:22.687 +01:00 [DBG] Connection id "0HN0LAF1SAGKA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:56:22.698 +01:00 [DBG] Connection id "0HN0LAF1SAGKA" stopped.
+2024-01-14 23:56:44.972 +01:00 [DBG] Connection id "0HN0LAF1SAGKB" accepted.
+2024-01-14 23:56:44.990 +01:00 [DBG] Connection id "0HN0LAF1SAGKB" started.
+2024-01-14 23:56:44.996 +01:00 [DBG] Connection 0HN0LAF1SAGKB established using the following protocol: "Tls12"
+2024-01-14 23:56:44.999 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7172/api/brands/1/cars/1 - null null
+2024-01-14 23:56:45.012 +01:00 [DBG] The request path  does not match the path filter
+2024-01-14 23:56:45.015 +01:00 [DBG] 1 candidate(s) found for the request path '/api/brands/1/cars/1'
+2024-01-14 23:56:45.017 +01:00 [DBG] Endpoint 'VineCar.Controllers.CarController.GetCar (VineCar)' with route pattern 'api/brands/{brandId}/cars/{carId}' is valid for the request path '/api/brands/1/cars/1'
+2024-01-14 23:56:45.020 +01:00 [DBG] Request matched endpoint 'VineCar.Controllers.CarController.GetCar (VineCar)'
+2024-01-14 23:56:45.022 +01:00 [INF] Executing endpoint 'VineCar.Controllers.CarController.GetCar (VineCar)'
+2024-01-14 23:56:45.029 +01:00 [INF] Route matched with {action = "GetCar", controller = "Car"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[VineCar.VineCarDtos.CarDto]] GetCar(Int32, Int32) on controller VineCar.Controllers.CarController (VineCar).
+2024-01-14 23:56:45.033 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-01-14 23:56:45.036 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-01-14 23:56:45.038 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-01-14 23:56:45.041 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-01-14 23:56:45.042 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-01-14 23:56:45.045 +01:00 [DBG] Executing controller factory for controller VineCar.Controllers.CarController (VineCar)
+2024-01-14 23:56:45.047 +01:00 [DBG] Executed controller factory for controller VineCar.Controllers.CarController (VineCar)
+2024-01-14 23:56:45.050 +01:00 [DBG] Attempting to bind parameter 'brandId' of type 'System.Int32' ...
+2024-01-14 23:56:45.051 +01:00 [DBG] Attempting to bind parameter 'brandId' of type 'System.Int32' using the name 'brandId' in request data ...
+2024-01-14 23:56:45.054 +01:00 [DBG] Done attempting to bind parameter 'brandId' of type 'System.Int32'.
+2024-01-14 23:56:45.056 +01:00 [DBG] Done attempting to bind parameter 'brandId' of type 'System.Int32'.
+2024-01-14 23:56:45.058 +01:00 [DBG] Attempting to validate the bound parameter 'brandId' of type 'System.Int32' ...
+2024-01-14 23:56:45.060 +01:00 [DBG] Done attempting to validate the bound parameter 'brandId' of type 'System.Int32'.
+2024-01-14 23:56:45.063 +01:00 [DBG] Attempting to bind parameter 'carId' of type 'System.Int32' ...
+2024-01-14 23:56:45.065 +01:00 [DBG] Attempting to bind parameter 'carId' of type 'System.Int32' using the name 'carId' in request data ...
+2024-01-14 23:56:45.067 +01:00 [DBG] Done attempting to bind parameter 'carId' of type 'System.Int32'.
+2024-01-14 23:56:45.069 +01:00 [DBG] Done attempting to bind parameter 'carId' of type 'System.Int32'.
+2024-01-14 23:56:45.070 +01:00 [DBG] Attempting to validate the bound parameter 'carId' of type 'System.Int32' ...
+2024-01-14 23:56:45.073 +01:00 [DBG] Done attempting to validate the bound parameter 'carId' of type 'System.Int32'.
+2024-01-14 23:56:45.079 +01:00 [DBG] Entity Framework Core 8.0.1 initialized 'DBContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.1' with options: None
+2024-01-14 23:56:45.088 +01:00 [DBG] Creating DbConnection.
+2024-01-14 23:56:45.089 +01:00 [DBG] Created DbConnection. (1ms).
+2024-01-14 23:56:45.091 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:56:45.094 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:45.096 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:56:45.098 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-01-14 23:56:45.100 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2024-01-14 23:56:45.102 +01:00 [DBG] Executing DbCommand [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "brands" AS "b"
+    WHERE "b"."Id" = @__brandId_0)
+2024-01-14 23:56:45.106 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[@__brandId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "brands" AS "b"
+    WHERE "b"."Id" = @__brandId_0)
+2024-01-14 23:56:45.111 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:45.113 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 2ms reading results.
+2024-01-14 23:56:45.116 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:45.117 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (1ms).
+2024-01-14 23:56:45.124 +01:00 [DBG] Compiling query expression: 
+'DbSet<Car>()
+    .Where(p => p.BrandId == __brandId_0 && p.Id == __carId_1)
+    .FirstOrDefault()'
+2024-01-14 23:56:45.136 +01:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Car>(
+    asyncEnumerable: new SingleQueryingEnumerable<Car>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Car.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Car.BrandId (int) Required FK Index, 1], [Property: Car.Description (string), 2], [Property: Car.Name (string) Required, 3], [Property: Car.Price (decimal) Required, 4] }
+            SELECT TOP(1) c.Id, c.BrandId, c.Description, c.Name, c.Price
+            FROM cars AS c
+            WHERE (c.BrandId == @__brandId_0) && (c.Id == @__carId_1)), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Car>, 
+        VineCar.AppDbContext.DBContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2024-01-14 23:56:45.144 +01:00 [DBG] Opening connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:56:45.146 +01:00 [DBG] Opened connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:45.148 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-01-14 23:56:45.150 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2024-01-14 23:56:45.152 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2024-01-14 23:56:45.154 +01:00 [DBG] Executing DbCommand [Parameters=[@__brandId_0='?' (DbType = Int32), @__carId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."BrandId", "c"."Description", "c"."Name", "c"."Price"
+FROM "cars" AS "c"
+WHERE "c"."BrandId" = @__brandId_0 AND "c"."Id" = @__carId_1
+LIMIT 1
+2024-01-14 23:56:45.158 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[@__brandId_0='?' (DbType = Int32), @__carId_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."BrandId", "c"."Description", "c"."Name", "c"."Price"
+FROM "cars" AS "c"
+WHERE "c"."BrandId" = @__brandId_0 AND "c"."Id" = @__carId_1
+LIMIT 1
+2024-01-14 23:56:45.163 +01:00 [DBG] Closing data reader to 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:45.165 +01:00 [DBG] A data reader for 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db' is being disposed after spending 1ms reading results.
+2024-01-14 23:56:45.168 +01:00 [DBG] Closing connection to database 'main' on server 'C:\Users\HP\Desktop\VineCar\VineCars.Db'.
+2024-01-14 23:56:45.170 +01:00 [DBG] Closed connection to database 'main' on server 'VineCars.Db' (1ms).
+2024-01-14 23:56:45.230 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2024-01-14 23:56:45.236 +01:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-01-14 23:56:45.241 +01:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-01-14 23:56:45.244 +01:00 [WRN] No output formatter was found for content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]' to write the response.
+2024-01-14 23:56:45.248 +01:00 [INF] Executed action VineCar.Controllers.CarController.GetCar (VineCar) in 202.9734ms
+2024-01-14 23:56:45.250 +01:00 [INF] Executed endpoint 'VineCar.Controllers.CarController.GetCar (VineCar)'
+2024-01-14 23:56:45.252 +01:00 [DBG] 'DBContext' disposed.
+2024-01-14 23:56:45.254 +01:00 [DBG] Disposing connection to database 'main' on server 'VineCars.Db'.
+2024-01-14 23:56:45.256 +01:00 [DBG] Disposed connection to database 'main' on server 'VineCars.Db' (1ms).
+2024-01-14 23:56:45.258 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7172/api/brands/1/cars/1 - 406 0 null 259.1269ms
+2024-01-14 23:56:52.708 +01:00 [DBG] Connection id "0HN0LAF1SAGKB" received FIN.
+2024-01-14 23:56:52.711 +01:00 [DBG] Connection id "0HN0LAF1SAGKB" is closed. The last processed stream ID was 1.
+2024-01-14 23:56:52.711 +01:00 [DBG] The connection queue processing loop for 0HN0LAF1SAGKB completed.
+2024-01-14 23:56:52.713 +01:00 [DBG] Connection id "0HN0LAF1SAGKB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-01-14 23:56:52.723 +01:00 [DBG] Connection id "0HN0LAF1SAGKB" stopped.
